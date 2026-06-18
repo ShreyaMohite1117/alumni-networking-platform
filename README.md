@@ -88,7 +88,7 @@ cd backend
 mvn clean install -DskipTests
 mvn spring-boot:run
 ```
-Backend runs at: http://localhost:8080
+Backend runs at: http://localhost:6003
 
 **Step 2 — Start Frontend (new terminal):**
 ```bash
@@ -170,14 +170,14 @@ After starting, register accounts via the UI. Suggested test flow:
 
 ## 🐛 Troubleshooting
 
-**"Port 8080 already in use"**
+**"Port6003 already in use"**
 ```bash
 # Windows
-netstat -ano | findstr :8080
+netstat -ano | findstr :6003
 taskkill /PID <pid> /F
 
 # Mac/Linux
-lsof -i :8080
+lsof -i :6003
 kill -9 <pid>
 ```
 
@@ -194,5 +194,5 @@ npm install
 
 ---
 
-## 📝 Resume Description
+## 📝 Description
 *"Developed a full-stack Alumni Networking Platform using Spring Boot and ReactJS enabling students and alumni to connect, share career opportunities (jobs/internships), participate in threaded discussions, request mentorship, and communicate via direct messaging, secured with JWT-based authentication and MySQL persistence."*
