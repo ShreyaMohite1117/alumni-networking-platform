@@ -1,0 +1,91 @@
+{
+  "folders": [
+    {
+      "name": "Alumni Platform (Root)",
+      "path": "."
+    },
+    {
+      "name": "Backend (Spring Boot)",
+      "path": "./backend"
+    },
+    {
+      "name": "Frontend (React)",
+      "path": "./frontend"
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/target": true,
+      "**/.git": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/target": true
+    },
+    "java.project.referencedLibraries": [
+      "backend/src/main/resources/**/*.jar"
+    ],
+    "spring-boot.ls.problem.application-properties.UNKNOWN_PROPERTY_KEY": "IGNORE"
+  },
+  "extensions": {
+    "recommendations": [
+      "vscjava.vscode-java-pack",
+      "vmware.vscode-spring-boot",
+      "vscjava.vscode-spring-initializr",
+      "vscjava.vscode-spring-boot-dashboard",
+      "esbenp.prettier-vscode",
+      "dsznajder.es7-react-js-snippets",
+      "ms-vscode.vscode-typescript-next",
+      "PKief.material-icon-theme"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run Spring Boot Backend",
+        "request": "launch",
+        "mainClass": "com.alumni.AlumniPlatformApplication",
+        "projectName": "alumni-platform",
+        "args": ""
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Backend",
+        "type": "shell",
+        "command": "cd backend && mvn spring-boot:run",
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        }
+      },
+      {
+        "label": "Start Frontend",
+        "type": "shell",
+        "command": "cd frontend && npm install && npm start",
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        }
+      },
+      {
+        "label": "Build Backend (JAR)",
+        "type": "shell",
+        "command": "cd backend && mvn clean package -DskipTests",
+        "group": "build"
+      }
+    ]
+  }
+}
