@@ -35,55 +35,29 @@ alumni-platform/
 🔑 Login Page
 <img width="1107" height="627" alt="login" src="https://github.com/user-attachments/assets/1c4ce157-9461-440e-85e5-91ebd9b53ab4" />
 
-
-
 📝 Registration Page
 <img width="999" height="658" alt="register" src="https://github.com/user-attachments/assets/2201d84a-623f-4ab7-9f0f-51adc01fbbc8" />
-
-
-
 
 🏠 Dashboard
 <img width="1359" height="675" alt="dashboard" src="https://github.com/user-attachments/assets/f4dca2c5-966e-4256-bdc1-649dd6f4458d" />
 
-
-
-
 👨‍🎓 Alumni Directory
 <img width="1365" height="692" alt="alumni-directory" src="https://github.com/user-attachments/assets/389597a5-7b2b-4072-a19d-d178c9e00ac3" />
-
-
-
 
 💼 Job Portal
 <img width="1365" height="674" alt="jobs" src="https://github.com/user-attachments/assets/32662c92-212b-4d38-8815-2153e5529d75" />
 
-
-
-
 🤝 Mentorship Requests
 <img width="1364" height="684" alt="mentorship" src="https://github.com/user-attachments/assets/2a55ea26-6255-42ac-a50b-ae649ccffd72" />
-
-
-
 
 💬 Messaging System
 <img width="1357" height="681" alt="chat" src="https://github.com/user-attachments/assets/cdf02b6d-8674-4fc5-b118-4ffb426831dc" />
 
-
-
-
 📝 Discussion Forum
 <img width="1352" height="675" alt="forum" src="https://github.com/user-attachments/assets/94316162-84e5-4c64-9657-33ca4fdd43f2" />
 
-
-
-
 📅 Events Module
 <img width="1365" height="674" alt="events" src="https://github.com/user-attachments/assets/91ec9a95-08a6-48e4-b690-87bf1d3b5522" />
-
-
-
 
 🎥 Project Demo
 GIF Demo
