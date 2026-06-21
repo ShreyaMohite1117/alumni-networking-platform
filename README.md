@@ -61,28 +61,6 @@ alumni-platform/
 
 🎥 Project Demo
 GIF Demo
-
----
-🏗️ System Architecture
-┌─────────────────────────┐
-│      React Frontend     │
-└───────────┬─────────────┘
-            │ REST APIs
-            ▼
-┌─────────────────────────┐
-│   Spring Boot Backend   │
-└───────────┬─────────────┘
-            │
-            ▼
-┌─────────────────────────┐
-│ Spring Security + JWT   │
-└───────────┬─────────────┘
-            │
-            ▼
-┌─────────────────────────┐
-│      MySQL Database     │
-└─────────────────────────┘
-
 ----
 
 ## ⚙️ Prerequisites
